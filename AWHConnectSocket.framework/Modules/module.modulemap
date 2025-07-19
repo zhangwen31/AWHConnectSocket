@@ -1,0 +1,11 @@
+framework module AWHConnectSocket {
+  umbrella header "AWHConnectSocket.h"
+  export *
+
+  module * { export * }
+}
+
+module AWHConnectSocket.Swift {
+  header "AWHConnectSocket-Swift.h"
+  requires objc
+}
